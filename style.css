@@ -1,0 +1,133 @@
+body {
+  background-color: rgb(148, 186, 187);
+  margin: 0 auto;
+  font-family: "Quicksand", sans-serif;
+ 
+
+}
+
+header {
+  background-color: rgb(253, 251, 243);
+  height: 70px;
+}
+
+h1 {
+  margin: 0;
+  padding: 15px;
+  font-size: 30;
+  color: rgb(110, 110, 110);
+}
+
+main {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+button {
+  padding: 10px 15px;
+  font-family: "Quicksand", sans-serif;
+  border: none;
+  background-color: rgb(219, 172, 84);
+  font-size: 18px;
+  color: aliceblue;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: rgb(219, 153, 29);
+  transition: 0.5s;
+}
+
+.newTaskInput {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px rgb(202, 202, 202) solid;
+  font-size: 18px;
+  font-family: "Quicksand", sans-serif;
+  width: 150px;
+  margin: 10px;
+}
+
+.newTaskInput:focus {
+  border: 2px rgb(158, 158, 158) solid;
+  outline: none;
+  transition: 0.15s;
+}
+
+ul button, .deleteButton {
+  background-color: #cd5c5c;
+  margin: 0;
+}
+
+ul button:hover, .deleteButton:hover {
+  background-color: #ce3838;
+  transition: 0.5s;
+}
+
+ul {
+  list-style: none;
+  padding: 10px;
+}
+
+.addedItem {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1px rgb(231, 231, 231) solid;
+  border-radius: 10px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.taskName {
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+form p {
+  margin: 0 0 0 10px;
+  font-size: 22px;
+}
+
+.fa-trash-alt {
+  pointer-events: none;
+}
+
+.taskList {
+  text-align: center;
+  margin: 0 0 20px 0;
+  font-size: 24px;
+  color: rgb(219, 153, 29);
+}
+
+.doneList {
+  text-align: center;
+  margin: 0;
+  font-size: 24px;
+  color: rgb(15, 155, 34);
+  min-width: 280px;
+}
+
+.box {
+  min-width: 280px;
+  padding: 10px;
+}
+
+.addedItem.box__dragabble {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+section {
+  margin: 250px auto;
+  background-color: rgb(255, 252, 240);
+  border-radius: 15px;
+  width: 300px;
+}
+
+.doneList {
+  margin: 15px;
+}
